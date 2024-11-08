@@ -1,0 +1,236 @@
+*{
+    box-sizing:border-box ;
+    margin:0;
+    padding:0;
+  }
+  
+  body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .container{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ;
+  }
+  
+  
+  .home{
+    padding:80px 0;
+  }
+  .nav-link{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .navbar-nav{
+    gap: 30px;
+  }
+  
+  .enclose a button{
+    background-color: orangered;
+    border: none;
+    color: white;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border-radius: 8px;
+    border-style: solid;
+  }
+  .enclose a button:hover{
+    background-color: orange;
+  }
+  
+  .enclose h6{
+    margin-top: 1.5em;
+  }
+  .enclose h6 strong{
+    border: 1px solid;
+    /* width: 100%; */
+    padding:8px;
+    /* border-radius: 1em;  */
+    color: orangered;
+    font-size: 1em;
+  }
+  .enclose h6 span{
+    margin-left: 8px;
+  }
+  .row-head{
+    text-align: center;
+  }
+  .bs1{
+    border: 4px solid;
+    border-color: rgb(151, 146, 146);
+    text-align: center;
+  }
+  .bs1 .bx{
+    background-color: orangered;
+    font-size: 3em;
+    text-align: left;
+    color: white;
+  }
+  
+  .simple-solutions{
+    display: flex;
+    
+  }
+  .simple{
+    margin-top: 10px;  
+  }
+  .simple h3{
+    color: white;
+  }
+  .one,.two,.three,.four{
+    border: 1px solid;
+    width: 30px;
+    height: 35px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: orangered;
+    border-color: orangered;
+    margin-top: 5px;
+  }
+  .solutions{
+    /* text-align: center; */
+    margin-left: 5px; 
+  }
+  .solutions h2{
+    font-size: 25px;
+  }
+  .solution1,.solution2,.solution3,.solution4{
+    margin-top: 12px;
+  }
+  .sol-btn{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+   
+  }
+  .sol-btn1 a button,.nav-link button{
+     background-color:orangered ;
+     color: white;
+     border-color: orangered;
+     border-radius: 4px;
+     border-style: solid;
+    
+  }
+  .sol-btn1 a button:hover,.nav-link button:hover{
+    background-color: white;
+    color: orangered;
+  }
+  .sol-btn2 a button{
+    background-color: white;
+    color: orangered;
+    border-color: orangered;
+    border-radius: 4px;
+    border-style: solid;
+  }
+  .sol-btn2 a button:hover{
+    background-color: orangered;
+    color: white;
+  }
+  
+  .our-agency{
+    padding-top: 40px;
+  }
+  
+  .our-agency h3{
+  text-transform: capitalize;
+  }
+  .our-agency h3{
+    color: orangered;
+  }
+  .our-agency h3 span{
+    color: black;
+  }
+  .our-agency a button{
+    background-color:orangered ;
+    color: white;
+    border-color: orangered;
+    border-radius: 4px;
+    border-style: solid;
+   
+  }
+  .our-agency a button:hover{
+    background-color: white;
+    color: orangered;
+  }
+  
+  .row-con{
+    text-align: center;
+    text-transform: capitalize;
+  }
+  .row-con h3 span{
+    color: orangered;
+  }
+  .img-name{
+    display: flex;
+    gap: 5px;
+  }
+  
+  .img-name img{
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+  .img-name p{
+    margin-top: 15px;
+  }
+  .rating1 p,span{
+    margin-left: 5px;
+  }
+  .rating2 p,span{
+    margin-left: 5px;
+  }
+  .rating3 p,span{
+    margin-left: 5px;
+  }
+  .row-tact{
+    display: flex;
+    justify-content: space-between;
+    background-color: orangered;
+  }
+  .row-tact h4{
+    color: white;
+    margin-top: 5px;
+  }
+  .row-tact a button{
+    font-size: 17px;
+    /* border: none; */
+    margin-top: 5px;
+    border-color: white;
+    background-color: orangered;
+    color: white;
+    border-style: solid;
+    
+  }
+  .row-tact a button:hover{
+    background-color: white;
+    color: orangered;
+  }
+  
+  
+  .rating1,.rating2,.rating3{
+    border: 5px solid;
+    border-color: rgb(131, 127, 127);
+  }
+  .rating1 span,.rating2 span,.rating3 span{
+    color: yellow;
+  }
+  .rating1 strong,.rating2 strong,.rating3 strong{
+    color: black;
+  }
+  
+  .log-name{
+    display: flex;
+  }
+  .icons{
+    display: flex;
+    font-size: 1.5em;
+  }
+  
+  
+  
+  
+  #blog{
+    text-align: center;
+    padding-top: 10px;
+    background-color: orangered;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+  }
